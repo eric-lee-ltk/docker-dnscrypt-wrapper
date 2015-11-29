@@ -9,5 +9,6 @@ COPY bin/run.sh /
 VOLUME ["/usr/local/share/dnscrypt-wrapper"]
 
 EXPOSE 443
+EXPOSE 443/udp
 
 CMD ["/run.sh"]
